@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>login Form</title>
+        <!-- CSS Style files-->
+        <link href="css/compu-care-system-project-style.css" rel="stylesheet" />
+        <!--fontawesome script-->
+        <script defer src=" js/all.min.js"></script>
+    </head>
+
+    <body>
+        <!--login-form-section start-->
+        <section class="login-form-section">
+            <div class="container">
+                <div class="row login-form-row">
+                    <!--form start-->
+                    <form class="col-md-9 col-lg-6 white-container" id="login-form" action="pages/branch-choosing.html" name="" role="form" method="">
+                        <!--item start-->
+                        <div class="col-md-12">
+                            <h1 class="centered-logo">Logo</h1>
+                        </div>
+                        <!--/item end-->
+                        <!--item start-->
+                        <div class="col-md-12">
+                            <h3 class="main-green-heading">
+                                <span class="green-label-circle">
+                                    <i class="fas fa-circle"></i>
+                                </span>
+                                <span class="main-heading-text">تسجيل الدخول :</span>
+                            </h3>
+                        </div>
+                        <!--/item end-->
+                        <!--item start-->
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="company-code" class="system-form-label">
+                                    <span class="green-label-circle"><i class="fas fa-circle"></i></span>
+                                    <span class="label-text">
+                                        كود الشركة
+                                    </span>
+                                </label>
+                                <input type="text" class="form-control input-style" id="company-code" placeholder="ادخل كود الشركة" />
+                                <!--error item start-->
+                                <p class="company-code-error"></p>
+                                <!--/error item end-->
+                            </div>
+                        </div>
+                        <!--/item end-->
+                        <!--item start-->
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="user-name" class="system-form-label">
+                                    <span class="green-label-circle"><i class="fas fa-circle"></i></span>
+                                    <span class="label-text">
+                                        اسم المستخدم
+                                    </span>
+                                </label>
+                                <input type="text" class="form-control input-style" id="user-name" placeholder="ادخل اسم المستخدم" />
+                                <!--error item start-->
+                                <p class="user-name-error"></p>
+                                <!--/error item end-->
+                            </div>
+                        </div>
+                        <!--/item end-->
+                        <!--item start-->
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="password-input" class="system-form-label">
+                                    <span class="green-label-circle"><i class="fas fa-circle"></i></span>
+                                    <span class="label-text">
+                                        كلمة المرور
+                                    </span>
+                                </label>
+
+                                <input type="password" class="form-control input-style input-psswd" id="password-input" placeholder="ادخل كلمة المرور" psswd-shown="false" />
+                                <button class="button-psswd" type="button"><i class="fas fa-eye"></i></button>
+                                <!--error item start-->
+                                <p class="password-error"></p>
+                                <!--/error item end-->
+                            </div>
+                        </div>
+                        <!--/item end-->
+                        <!--item start-->
+                        <div class="col-md-12">
+                            <input class="inp-cbx" id="remember-me" type="checkbox" style="display: none;" />
+                            <label class="cbx system-form-label" for="remember-me">
+                                <span>
+                                    <svg width="12px" height="10px" viewbox="0 0 12 10">
+                                        <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                                    </svg>
+                                </span>
+                                <span>حفظ تسجيل الدخول</span>
+                            </label>
+                        </div>
+                        <!--/item end-->
+
+                        <!--item start-->
+                        <div class="col-md-12 text-center margin-top-25">
+                            <button type="submit" class="btn submit-btn" data-toggle="tooltip" data-placement="top" title="تسجيل الدخول">
+                                تسجيل الدخول
+                            </button>
+                        </div>
+                        <!--/item end-->
+                    </form>
+                    <!--/form end-->
+                </div>
+            </div>
+        </section>
+        <!--/login-form-section end-->
+        <!-- Js script start-->
+        <script src="js/jquery-3.4.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/datatables.min.js"></script>
+        <script src="js/flatpickr.js"></script>
+        <script src="js/select2.min.js"></script>
+        <script src="js/arabic-version-js.js"></script>
+        <!-- /Js script end-->
+    </body>
+</html>

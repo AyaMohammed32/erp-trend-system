@@ -1,0 +1,21 @@
+/* ------ Pages styles start ------ */
+/*arabic styles start*/
+ body:lang(ar){
+     direction: rtl;
+     text-align: right;
+}
+ .green-label-circle:lang(ar){
+     margin-left: 5px;
+}
+ .button-psswd:lang(ar){
+     left: 30px;
+}
+ .select2-container--default:lang(ar) .select2-selection--single:lang(ar) .select2-selection__arrow:lang(ar) {
+     left: 10px;
+}
+ .modal-header .close:lang(ar) {
+     margin: -1rem auto -1rem -1rem;
+     padding: 2rem 2rem 1rem 2rem;
+}
+/*/arabic style end*/
+/* ------ /Pages styles end------ */
