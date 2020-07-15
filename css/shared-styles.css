@@ -671,7 +671,7 @@ tree veiw component end*/
      top: 5px;
      left: 3px;
      fill: none;
-     stroke: var(--main-white-color)FFF;
+     stroke: var(--main-white-color);
      stroke-width: 3;
      stroke-linecap: round;
      stroke-linejoin: round;
